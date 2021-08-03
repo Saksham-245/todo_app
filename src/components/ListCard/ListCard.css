@@ -1,0 +1,51 @@
+.card{
+    justify-content: space-evenly;
+    width: 45rem;
+    margin-right: 20%;
+}
+
+.list{
+    position: absolute;
+    width: 10rem;
+    margin-left: 25%;
+    margin-top: -12%;
+}
+
+.list h2{
+    margin-top: 100%;
+    margin-left: 55%;
+    width: 300%;
+    color: gray;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+i{
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+i:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.delete{
+    float: right;
+    width: 5rem;
+    margin-left: 0%;
+    margin-top: -10px;
+}
+
+.edit{
+    float: right;
+    width: 5rem;
+    margin-left: 0%;
+    margin-top: -10px;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+

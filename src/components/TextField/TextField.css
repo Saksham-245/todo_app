@@ -1,0 +1,15 @@
+.input{
+    width: 35%;
+}
+
+.input input{
+    padding: 10px 0 10px 5px;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+input :focus-visible{
+    outline: none !important;
+}
